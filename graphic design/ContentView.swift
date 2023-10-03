@@ -52,10 +52,11 @@ struct ContentView: View {
                             .font(.system(size:12))
                             .foregroundStyle(Color.white)
                             .offset(x:-30,y:-10)
+                            .fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                         Text("進一步了解")
                             .font(.system(size:16))
                             .foregroundStyle(Color.blue)
-                            .offset(x:-125,y:-10)
+                            .offset(x:-125,y:-7)
                     }
                 }
                 ZStack(){
@@ -73,8 +74,8 @@ struct ContentView: View {
                     Image(.bar)
                         .resizable()
                         .scaledToFit()
-                        .frame(width:410 ,height:350.0 )
-                        .offset(x:0,y:285)
+                        .frame(width:400,height:350.0 )
+                        .offset(x:0,y:270)
                         }
                 }
                 
